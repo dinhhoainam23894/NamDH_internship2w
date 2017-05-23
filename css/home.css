@@ -1,0 +1,365 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+    font-family: 'YesevaOne_Regular';
+    src: url('../fonts/YesevaOne-Regular.eot');
+    src: url('../fonts/YesevaOne-Regular.eot') format('embedded-opentype'), url('../fonts/YesevaOne-Regular.woff')
+    format('woff2'), url('../fonts/YesevaOne-Regular.woff') format('woff'), url('../fonts/YesevaOne-Regular.ttf')
+    format('truetype'), url('../fonts/YesevaOne-Regular.svg#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#promo{
+	
+	padding-bottom:140px;
+	background-repeat: no-repeat;
+	position: relative;
+}
+header{
+	background: url("../images/restaurant.png") no-repeat;
+	background-size: 100% 100%;
+}
+.menu-header{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.cover_menu_head{
+	background: rgba(1,1,1,0.1);
+	overflow: hidden;
+	margin-bottom: 150px;
+}
+.logo{
+	display: inline-block;
+	padding: 10px 0;
+}
+.logo img{
+	width: 100%;
+}
+.menu-bar{
+	list-style: none;
+	float: right;
+	margin-top: 40px;
+}
+.menu-bar li {
+	display: inline-block;
+	padding-right: 5px; 
+	color:#dab33e;
+}
+.menu-bar a{
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+.menu-bar a:hover{
+	color:#dab33e;
+}
+#promo h1{
+	color:white;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'YesevaOne_Regular';
+	line-height: 70px;
+}
+
+.button-black{
+	color: white;
+	padding: 10px 15px;
+	background: rgba(1,1,1,0.4);
+	border: 1px solid black;
+	text-decoration: none;
+}
+.button-black:hover{
+	background: #ee9900;
+	color: black;
+}
+.button-white{
+	color: white;
+	padding: 10px 15px;
+	background: rgba(255,255,255,0.4);
+	border: 1px solid white;
+	text-decoration: none;
+}
+.button-white:hover{
+	background: #ee9900;
+	color: red;
+}
+.slogan_head{
+	width: 46%;
+	margin: 0 auto;
+}
+.button_top{
+	margin-left: 39%;
+	margin-top: 30px;
+}
+.button_top a{
+	margin-right: 30px;
+}
+.section-about{
+	width: 80%;
+	margin: 0 auto;
+}
+.tilte_about{
+	font-family: 'YesevaOne_Regular';
+	font-size: 40px;
+	color: #cc9900;
+}
+.tilte_about a{
+	font-size: 40px;
+	color: #cc9900;
+}
+.right_food_img img{
+	width: 100%;
+}
+.cover_section_about{
+	background: url(../images/background-section2.png);
+	background-size: 100% 100%;
+	padding: 75px 0;
+}
+.text-center p{
+	padding-top: 20px;
+}
+.cook{
+	padding-left: 100px;
+}
+
+.cover_section_ingredients{
+	background: url(../images/background-section3.png);
+	background-size: 100% 100%;
+	padding: 75px 0;
+}
+.section_ingredients{
+	width: 80%;
+	margin: 0 auto;
+
+}
+.title_ingredients a{
+	font-size: 40px;
+	color: white;
+	font-family: 'YesevaOne_Regular';
+}
+.content-right{
+	background:rgba(1,1,1,0.6);
+	padding: 50px 50px;
+	text-align:center;
+}
+.content-right p{
+	color:white;
+}
+.content-right ul{
+	list-style: none;
+	overflow: hidden;
+}
+.content-right li{
+	padding-top: 20px;
+	display: inline-block;
+}
+.content-right img{
+	width: 80%;
+}
+.content-right .devider{
+	width: 60%;
+}
+.fix{
+	padding-left: 15px;
+}
+.cover_section_menu{
+	background: url(../images/background-section2.png);
+	background-size: 100% 100%;
+	padding: 75px 0;
+}
+.section_menu{
+	width: 80%;
+	margin: 0 auto;
+}
+.menu_left{
+	text-align: center;
+}
+
+.title_menu{
+	font-family: 'YesevaOne_Regular';
+	font-size: 30px;
+	color: #cc9900;
+	padding-top: 30px;
+}
+.details_menu{
+	list-style: none;
+	padding-top:20px;
+}
+.details_menu li{
+	width: 70%;
+	margin: 0 auto;
+	clear: both;
+	
+}
+.header_details{
+	padding: 20px 0;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border-bottom: 1px solid #cc9900;
+	
+}
+.header_details a{
+	color: #cc9900;
+	font-weight: bold;
+	float: left;
+}
+.header_details span{
+	color: #cc9900;
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+}
+.details_menu p{
+	font-size: 12px;
+	float: left;
+	padding-top: 10px;
+}
+.special{
+	border: 1px solid #cc9900;
+	padding: 0 10px;
+	margin: 0 auto;
+	margin-top: 70px !important;
+	position: relative;
+    
+}
+
+.special::before{
+	content: "special";
+    position: absolute;
+	right: 0;
+	top: -20px;
+	background: #cc9900;
+	color: white;
+	padding:0 5px;
+	
+}
+.text_details{
+	left: 0;
+	text-align: left;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+.menu_right{
+    text-align: center;
+}
+.cover_section_reviews{
+    background: url(../images/background-section4.png);
+	background-size: 100% 100%;
+	padding: 75px 0;
+}
+.section_reviews{
+	width: 80%;
+	margin: 0 auto;
+}
+.content-reviews{
+	background: black;
+	padding:50px;
+	text-align: center;
+	position: relative;
+}
+.title_reviews{
+	font-family: 'YesevaOne_Regular';
+	font-size: 30px;
+	color: white;
+}
+.content-reviews img{
+	width: 40%;
+}
+.quote a{
+	color: #9b9c99;
+	font-size: 50px;
+	font-weight: bold;
+	position: absolute;
+	left: 30px;
+	top:40%;
+}
+.content-reviews p{
+	color: white;
+	padding: 20px 10px;
+}
+.sign a{
+	color: white;
+	font-size: 10px;
+	font-family: Arial;
+}
+.cover_section_reservations{
+	background: url(../images/background-section2.png);
+	background-size: 100% 100%;
+	padding: 75px 0;
+}
+.section_reservation{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.reservations_left img{
+	width: 98%;
+}
+.reservations_right{
+	text-align: center;
+}
+.title_reservations{
+	font-family: 'YesevaOne_Regular';
+	font-size: 30px;
+	color: #cc9900;
+}
+.reservations_right p{
+	font-size:14px;
+	padding-top: 20px;
+}
+.form-group{
+	text-align: left;
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.form-group i{
+	position: absolute;
+	right: 55px;
+	bottom: 10px;
+}
+form button{
+	padding: 10px 40px !important;;
+}
+.reservations_right label{
+	color: #cc9900;
+}
+.reservations_right input{
+	width: 80%;
+}
+footer{
+	background: black;
+	color: white;
+	padding: 70px 0;
+}
+.content_footer{
+	width: 80%;
+	margin: 0 auto;
+}
+.details_footer{
+	text-align: center;
+}
+.title_footer{
+	font-size: 30px;
+	font-family: 'YesevaOne_Regular';
+}
+.content_footer img{
+	width: 60%;
+}
+.content_footer ul{
+	list-style: none;
+}
+.content_footer li{
+	display: inline-block;
+	padding: 10px 5px;
+}
+.content_footer a{
+	color: white;
+}
+.content_footer li:hover a{
+	color:blue;
+}
