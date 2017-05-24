@@ -11,6 +11,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 #promo{
 	
 	padding-bottom:140px;
@@ -22,7 +28,7 @@ header{
 	background-size: 100% 100%;
 }
 .menu-header{
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -63,17 +69,21 @@ header{
 	font-family: 'YesevaOne_Regular';
 	line-height: 70px;
 }
-
+#promo img{
+	padding-left: 5px;
+}
 .button-black{
 	color: white;
 	padding: 10px 15px;
 	background: rgba(1,1,1,0.4);
 	border: 1px solid black;
 	text-decoration: none;
+	margin-right: 10px;
 }
 .button-black:hover{
 	background: #ee9900;
 	color: black;
+	/*! margin-right: 10px; */
 }
 .button-white{
 	color: white;
@@ -87,7 +97,7 @@ header{
 	color: red;
 }
 .slogan_head{
-	width: 46%;
+	max-width: 46%;
 	margin: 0 auto;
 }
 .button_top{
@@ -95,10 +105,10 @@ header{
 	margin-top: 30px;
 }
 .button_top a{
-	margin-right: 30px;
+	/*! margin-right: 30px; */
 }
 .section-about{
-	width: 80%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 .tilte_about{
@@ -122,7 +132,9 @@ header{
 	padding-top: 20px;
 }
 .cook{
-	padding-left: 100px;
+	width: 50% !important;
+	padding-left: 52px; 
+	padding-top: 10px;
 }
 
 .cover_section_ingredients{
@@ -195,7 +207,7 @@ header{
 	
 }
 .header_details{
-	padding: 20px 0;
+	padding: 15px 0;
 	overflow: hidden;
 	position: relative;
 	width: 100%;
@@ -213,16 +225,11 @@ header{
 	right: 0;
 	font-weight: bold;
 }
-.details_menu p{
-	font-size: 12px;
-	float: left;
-	padding-top: 10px;
-}
 .special{
 	border: 1px solid #cc9900;
 	padding: 0 10px;
 	margin: 0 auto;
-	margin-top: 70px !important;
+	margin-top: 15px !important;
 	position: relative;
     
 }
@@ -241,7 +248,7 @@ header{
 	left: 0;
 	text-align: left;
 	font-size: 13px;
-	padding-bottom: 10px;
+	padding: 15px 0;
 }
 .menu_right{
     text-align: center;
@@ -278,7 +285,10 @@ header{
 	top:40%;
 }
 .content-reviews p{
-	color: white;
+	color: #dde0df;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Gentium Book Basic', serif;
 	padding: 20px 10px;
 }
 .sign a{
@@ -297,7 +307,7 @@ header{
 	
 }
 .reservations_left img{
-	width: 98%;
+	width: 104%;
 }
 .reservations_right{
 	text-align: center;
@@ -306,9 +316,19 @@ header{
 	font-family: 'YesevaOne_Regular';
 	font-size: 30px;
 	color: #cc9900;
+	margin-top: 0 !important;
 }
 .reservations_right p{
 	font-size:14px;
+	padding-top: 20px;
+}
+.reservations_right img{
+	width: 53%;
+}
+.reservations_right .text-2{
+    padding-top: 0px !important;
+}
+form{
 	padding-top: 20px;
 }
 .form-group{
@@ -319,17 +339,24 @@ header{
 }
 .form-group i{
 	position: absolute;
-	right: 55px;
-	bottom: 10px;
+	right: 24px;
+	bottom: 7px;
+}
+.form-control{
+	width: 90%;
+	height: 30px;
 }
 form button{
-	padding: 10px 40px !important;;
+	padding: 4px 40px !important;
+	margin-right: 50px;
+	margin-top: 7px;
 }
 .reservations_right label{
 	color: #cc9900;
 }
 .reservations_right input{
-	width: 80%;
+	width: 90%;
+	height: 30px;
 }
 footer{
 	background: black;
@@ -342,6 +369,10 @@ footer{
 }
 .details_footer{
 	text-align: center;
+}
+.details_footer p{
+	font-family: "OpenSans";
+	color:#c7c7c7;
 }
 .title_footer{
 	font-size: 30px;
