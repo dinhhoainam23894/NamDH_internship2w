@@ -74,7 +74,7 @@ header{
 #promo h1{
 	color:white;
 	text-align: center;
-	font-size: 50px;
+	font-size: 54px;
 	font-family: 'YesevaOne_Regular';
 	line-height: 70px;
 }
@@ -83,7 +83,7 @@ header{
 }
 .button-black{
 	color: white;
-	padding: 10px 15px;
+	padding: 10px 30px;
 	background: rgba(1,1,1,0.4);
 	border: 1px solid black;
 	text-decoration: none;
@@ -96,10 +96,11 @@ header{
 }
 .button-white{
 	color: white;
-	padding: 10px 15px;
+	padding: 10px 30px;
 	background: rgba(255,255,255,0.4);
 	border: 1px solid white;
 	text-decoration: none;
+	margin-left: 10px;
 }
 .button-white:hover{
 	background: #ee9900;
@@ -110,11 +111,8 @@ header{
 	margin: 0 auto;
 }
 .button_top{
-	margin-left: 39%;
+	margin-left: 36%;
 	margin-top: 30px;
-}
-.button_top a{
-	/*! margin-right: 30px; */
 }
 .section-about{
 	max-width: 80%;
@@ -162,6 +160,7 @@ header{
 	font-family: 'YesevaOne_Regular';
 }
 .content-right{
+	overflow: hidden;
 	background:rgba(1,1,1,0.6);
 	padding: 50px 50px;
 	text-align:center;
@@ -169,22 +168,22 @@ header{
 .content-right p{
 	color:white;
 }
-.content-right ul{
-	list-style: none;
-	overflow: hidden;
-}
-.content-right li{
-	padding-top: 20px;
-	display: inline-block;
+.ingredients_images{
+	width: 29%;
+	height: 100px;
+	float: left;
+	border: 5px solid rgba(255,255,255,.1);
+	position: relative;
+	margin-right: 16px;
+	margin-top: 40px;
+	border-radius: 50%;
 }
 .content-right img{
-	width: 80%;
+	width: 100%;
+	height: 100%;
 }
 .content-right .devider{
 	width: 60%;
-}
-.fix{
-	padding-left: 15px;
 }
 .cover_section_menu{
 	background: url(../images/background-section2.png);
@@ -249,7 +248,7 @@ header{
     position: absolute;
 	right: 0;
 	top: -20px;
-	background: #cc9900;
+	background: #d4b660;
 	color: white;
 	padding:0 5px;
 	
@@ -273,7 +272,7 @@ header{
 	margin: 0 auto;
 }
 .content-reviews{
-	background: black;
+	background: rgba(1,1,1,0.6);
 	padding:50px;
 	text-align: center;
 	position: relative;
@@ -286,25 +285,28 @@ header{
 .content-reviews img{
 	width: 40%;
 }
-.quote a{
+.quote{
+	font-family: Georgia, serif;
 	color: #9b9c99;
 	font-size: 50px;
 	font-weight: bold;
 	position: absolute;
-	left: 30px;
-	top:40%;
+	left: 35px;
+	top:35%;
 }
 .content-reviews p{
 	color: #dde0df;
 	font-size: 15px;
+	line-height: 40px;
 	font-weight: bold;
 	font-family: 'Gentium Book Basic', serif;
-	padding: 20px 10px;
+	padding: 5px 10px;
 }
-.sign a{
+.sign{
 	color: white;
-	font-size: 10px;
+	font-size: 12px;
 	font-family: Arial;
+	padding-bottom: 55px;
 }
 .cover_section_reservations{
 	background: url(../images/background-section2.png);
@@ -355,21 +357,19 @@ form{
 .form-control{
 	width: 90%;
 	height: 30px;
+	border-radius: 0 !important;
 }
 form button{
-	padding: 4px 40px !important;
+	padding: 4px 45px !important;
 	margin-right: 50px;
 	margin-top: 7px;
+	border-radius: 0 !important;
 }
 .reservations_right label{
 	color: #cc9900;
 }
-.reservations_right input{
-	width: 90%;
-	height: 30px;
-}
 footer{
-	background: black;
+	background: #191919;
 	color: white;
 	padding: 70px 0;
 }
@@ -382,7 +382,7 @@ footer{
 }
 .details_footer p{
 	font-family: "OpenSans";
-	color:#c7c7c7;
+	color:#f4f4f4;
 }
 .title_footer{
 	font-size: 30px;
