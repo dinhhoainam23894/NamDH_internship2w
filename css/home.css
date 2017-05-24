@@ -74,7 +74,7 @@ header{
 #promo h1{
 	color:white;
 	text-align: center;
-	font-size: 54px;
+	font-size: 65px;
 	font-family: 'YesevaOne_Regular';
 	line-height: 70px;
 }
@@ -90,8 +90,9 @@ header{
 	margin-right: 10px;
 }
 .button-black:hover{
-	background: #ee9900;
-	color: black;
+	background:rgba(255,255,255,0.4);
+	color: white;
+	border: 1px solid white;
 	/*! margin-right: 10px; */
 }
 .button-white{
@@ -103,11 +104,12 @@ header{
 	margin-left: 10px;
 }
 .button-white:hover{
-	background: #ee9900;
-	color: red;
+	background: rgba(1,1,1,0.4);
+	color: white;
+	border: 1px solid black;
 }
 .slogan_head{
-	max-width: 46%;
+	max-width: 64%;
 	margin: 0 auto;
 }
 .button_top{
@@ -162,19 +164,19 @@ header{
 .content-right{
 	overflow: hidden;
 	background:rgba(1,1,1,0.6);
-	padding: 50px 50px;
+	padding: 63px 50px;
 	text-align:center;
 }
 .content-right p{
 	color:white;
 }
 .ingredients_images{
-	width: 29%;
+	width: 27%;
 	height: 100px;
 	float: left;
 	border: 5px solid rgba(255,255,255,.1);
 	position: relative;
-	margin-right: 16px;
+	margin-right: 23px;
 	margin-top: 40px;
 	border-radius: 50%;
 }
@@ -183,7 +185,8 @@ header{
 	height: 100%;
 }
 .content-right .devider{
-	width: 60%;
+	width: 100%;
+	padding-left: 32px;
 }
 .cover_section_menu{
 	background: url(../images/background-section2.png);
@@ -283,7 +286,8 @@ header{
 	color: white;
 }
 .content-reviews img{
-	width: 40%;
+	width: 52%;
+	margin-left: 36px;
 }
 .quote{
 	font-family: Georgia, serif;
@@ -356,11 +360,11 @@ form{
 }
 .form-control{
 	width: 90%;
-	height: 30px;
+	height: 35px;
 	border-radius: 0 !important;
 }
 form button{
-	padding: 4px 45px !important;
+	padding: 6px 45px !important;
 	margin-right: 50px;
 	margin-top: 7px;
 	border-radius: 0 !important;
@@ -389,10 +393,13 @@ footer{
 	font-family: 'YesevaOne_Regular';
 }
 .content_footer img{
-	width: 60%;
+	width: 100%;
+	margin-left: 13px;
+	margin-bottom: 10px;
 }
 .content_footer ul{
 	list-style: none;
+	margin-top: 20px;
 }
 .content_footer li{
 	display: inline-block;
